@@ -112,3 +112,38 @@ section {
     margin-top: 20px;
     margin-bottom: -3px;
 }
+/* Skill Section */
+.skill {
+    background:black;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    cursor: pointer;
+}
+.skill:hover{
+    transform: scale(1.20) rotate(7deg);
+    -webkit-transform: scale(1.20) rotate(7deg);
+    -moz-transform: scale(1.20) rotate(7deg);
+    -ms-transform: scale(1.20) rotate(7deg);
+    -o-transform: scale(1.20) rotate(7deg);
+    box-shadow: 0px 10px 25px 10px var(--secondaryColor);
+}
+/* Services Section */
+.service-box{
+    transition: all .40s;
+    -webkit-transition: all .40s;
+    -moz-transition: all .40s;
+    -ms-transition: all .40s;
+    -o-transition: all .40s;
+
+}
+.service-box:hover{
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    padding: 25px 0;
+}
