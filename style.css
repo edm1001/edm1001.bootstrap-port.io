@@ -173,3 +173,7 @@ form input, textarea {
 .form-control::placeholder{
     color:gainsboro
 }
+
+@media screen and (max-width:974px){
+    
+}
