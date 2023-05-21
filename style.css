@@ -180,7 +180,7 @@ section {
 }
 /* CONTACT SECTION */
 .contact-bg{
-    background-color: var(--secondaryColor);
+    background-color: var(--thirdColor);
     height: 70vh;
     padding: 50px;
 }
