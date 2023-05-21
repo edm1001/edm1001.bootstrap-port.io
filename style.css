@@ -1,9 +1,9 @@
 :root{
-    --primaryColor: #101821;
-    --secondaryColor: #274690;
-    --thirdColor: #daa520;
-    --fourthColor: #f55523;
-    --textColor: #ffffff;
+    --primaryColor: #0a0908;
+    --secondaryColor: #22333b;
+    --thirdColor: #c6ac8f;
+    --fourthColor: #5e503f;
+    --textColor: #eae0d5;
 }
 *{
     padding: 0;
@@ -40,6 +40,10 @@ section {
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
+}
+.btn-primary, btn-outline {
+    background-color: var(--fourthColor) !important;
+
 }
 
 
