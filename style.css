@@ -1,7 +1,10 @@
+@import "bootstrap";
+
+
 :root{
     --primaryColor: #0a0908;
-    --secondaryColor: #22333b;
-    --thirdColor: #c6ac8f;
+    --secondaryColor: #c6ac8f;
+    --thirdColor: #22333b;
     --fourthColor: #5e503f;
     --textColor: #eae0d5;
 }
@@ -41,6 +44,7 @@ section {
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
 }
+
 .btn-primary, btn-outline {
     background-color: var(--fourthColor) !important;
 
@@ -98,11 +102,14 @@ section {
     -o-transform: scale(1.5);
 }
 #hero h1 #typer {
-    color: var(--fourthColor)
+    color: var(--secondaryColor)
+}
+#cont-logo {
+    color: var(--fourthColor);
 }
 /* About Section */
 .exp {
-    background-color: darkslategrey;
+    background-color: var(--thirdColor);
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -134,6 +141,10 @@ section {
     -o-transform: scale(1.20) rotate(7deg);
     box-shadow: 0px 10px 25px 10px var(--secondaryColor);
 }
+.progress-bar {
+    color: var(--textColor);
+    background-color: var(--fourthColor);
+}
 /* Services Section */
 .service-box{
     transition: all .40s;
@@ -150,6 +161,10 @@ section {
     -ms-border-radius: 7px;
     -o-border-radius: 7px;
     padding: 25px 0;
+
+}
+.ser-logo {
+    color: var(--fourthColor);
 }
 /* PORTFOLIO SECTION */
 #portfolio img {
