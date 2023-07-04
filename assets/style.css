@@ -85,6 +85,10 @@ section {
 #hero {
     background-position: center right;
     background-size: cover;
+    background-image: url('./images/cover/bg-planet.jpg');
+    background-size: cover;
+    object-fit: contain;
+
 }
 #hero .social a {
     transition: all .4s;
