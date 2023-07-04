@@ -44,6 +44,9 @@ section {
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
 }
+.main-title {
+    font-size: 2em ;
+}
 
 .btn-primary, btn-outline {
     background-color: var(--fourthColor) !important;
