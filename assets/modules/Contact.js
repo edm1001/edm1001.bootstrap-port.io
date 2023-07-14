@@ -1,5 +1,6 @@
+
 const Contact =  () => {
-    return `
+     `
     <section id="contact">
         <div class="container">
             <h3 class="text-center fw-bold main-title">Contact Me</h3>
